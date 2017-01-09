@@ -1,0 +1,37 @@
+{
+	"fields": [
+		{
+			"name": "EnquiryLogRef",
+			"title": "Reference Number",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "DateStarted",
+			"title": "Date Started",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+				"datePattern": "%d/%m/%Y"
+			}
+		},
+		{
+			"name": "Type",
+			"title": "Type Of Personal Data",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "FSADirectorate",
+			"title": "Allocated FSA Directorate",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		}
+	]
+}
