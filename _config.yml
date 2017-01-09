@@ -1,4 +1,4 @@
 ---
-data_dir: "."
+data_source: "."
 update_frequency: Annual
-permalink: pretty
+certificate_url: http://certificates.theodi.org/en/datasets/214651/certificate/badge.js
